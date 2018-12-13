@@ -3,19 +3,17 @@
     padding:10px;
     margin-top: 500px;
     border-radius:20px;
-    bottom: 10px;
+    bottom: 59px;
     position: fixed;
-    left: 38px;
 }
 .btn{
+    display: block;
     padding: 8px;
-    width:100px;
+    width:80%;
     border-radius: 14px;
     font-size: 20px;
     bottom: 10px;
     position: fixed;
-    right:98px;
-    border:1px solid gray;
 }
 .user{
     color:darkblue;

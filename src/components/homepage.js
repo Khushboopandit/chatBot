@@ -47,8 +47,8 @@ class Home extends React.Component {
     return(
       <div style={{margin: '20px 20% 20px 20%'}}>
         <div>{chats}</div>
-        <input type="text" className="inp" placeholder="write comment..." onChange={this.addMassage} value={this.state.addMsg}/>
-        <button className="btn" onClick={this.inpAppend} >send</button >
+        <input type="text" className="inp form-control" placeholder="write comment..." onChange={this.addMassage} value={this.state.addMsg}/>
+        <button className="btn btn-info" onClick={this.inpAppend} >send</button >
       </div>
     )
   }
